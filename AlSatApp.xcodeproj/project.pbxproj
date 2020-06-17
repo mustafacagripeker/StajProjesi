@@ -3,19 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E37CE2A2498B28000A958D1 /* SellProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE292498B28000A958D1 /* SellProductVC.swift */; };
+		9E37CE2C2499037400A958D1 /* FirstScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE2B2499037400A958D1 /* FirstScreenCell.swift */; };
+		9E37CE2E2499043800A958D1 /* ForSaleProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE2D2499043800A958D1 /* ForSaleProductVC.swift */; };
+		9E37CE3024994D6F00A958D1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE2F24994D6F00A958D1 /* DetailVC.swift */; };
+		9E37CE3224996A2800A958D1 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE3124996A2800A958D1 /* NotificationVC.swift */; };
+		9E37CE342499FCB600A958D1 /* SecondScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE332499FCB600A958D1 /* SecondScreenCell.swift */; };
+		9E37CE362499FD4C00A958D1 /* MyProductForSaleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE352499FD4C00A958D1 /* MyProductForSaleVC.swift */; };
+		9E37CE3A249A296400A958D1 /* ThirdScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E37CE39249A296400A958D1 /* ThirdScreenCell.swift */; };
 		9E5DB2A82496DF12009A542B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DB2A72496DF12009A542B /* AppDelegate.swift */; };
 		9E5DB2AA2496DF12009A542B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DB2A92496DF12009A542B /* SceneDelegate.swift */; };
 		9E5DB2AC2496DF12009A542B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5DB2AB2496DF12009A542B /* ViewController.swift */; };
 		9E5DB2AF2496DF12009A542B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5DB2AD2496DF12009A542B /* Main.storyboard */; };
 		9E5DB2B12496DF15009A542B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5DB2B02496DF15009A542B /* Assets.xcassets */; };
 		9E5DB2B42496DF15009A542B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5DB2B22496DF15009A542B /* LaunchScreen.storyboard */; };
+		9E5DB2BC2496DFC0009A542B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E5DB2BB2496DFC0009A542B /* GoogleService-Info.plist */; };
+		9E7E78C62496E663005CB149 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E78C52496E663005CB149 /* RegisterVC.swift */; };
+		9E7E78C82496FFAB005CB149 /* InformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7E78C72496FFAB005CB149 /* InformationVC.swift */; };
+		DB55B7F819379D731722CDE9 /* Pods_AlSatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E6BD0EC212322B20A6C94E /* Pods_AlSatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16E6BD0EC212322B20A6C94E /* Pods_AlSatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlSatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B65F3FE61E59B4C50D2CE18 /* Pods-AlSatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlSatApp.release.xcconfig"; path = "Target Support Files/Pods-AlSatApp/Pods-AlSatApp.release.xcconfig"; sourceTree = "<group>"; };
+		2BAB826DF61CA2D73562BC63 /* Pods-AlSatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlSatApp.debug.xcconfig"; path = "Target Support Files/Pods-AlSatApp/Pods-AlSatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9E37CE292498B28000A958D1 /* SellProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellProductVC.swift; sourceTree = "<group>"; };
+		9E37CE2B2499037400A958D1 /* FirstScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenCell.swift; sourceTree = "<group>"; };
+		9E37CE2D2499043800A958D1 /* ForSaleProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForSaleProductVC.swift; sourceTree = "<group>"; };
+		9E37CE2F24994D6F00A958D1 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		9E37CE3124996A2800A958D1 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		9E37CE332499FCB600A958D1 /* SecondScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenCell.swift; sourceTree = "<group>"; };
+		9E37CE352499FD4C00A958D1 /* MyProductForSaleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductForSaleVC.swift; sourceTree = "<group>"; };
+		9E37CE39249A296400A958D1 /* ThirdScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenCell.swift; sourceTree = "<group>"; };
 		9E5DB2A42496DF12009A542B /* AlSatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlSatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5DB2A72496DF12009A542B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E5DB2A92496DF12009A542B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,9 @@
 		9E5DB2B02496DF15009A542B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E5DB2B32496DF15009A542B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E5DB2B52496DF15009A542B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5DB2BB2496DFC0009A542B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E7E78C52496E663005CB149 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		9E7E78C72496FFAB005CB149 /* InformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB55B7F819379D731722CDE9 /* Pods_AlSatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A9D4879947E5D94455667E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB826DF61CA2D73562BC63 /* Pods-AlSatApp.debug.xcconfig */,
+				2B65F3FE61E59B4C50D2CE18 /* Pods-AlSatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E5DB29B2496DF12009A542B = {
 			isa = PBXGroup;
 			children = (
 				9E5DB2A62496DF12009A542B /* AlSatApp */,
 				9E5DB2A52496DF12009A542B /* Products */,
+				11A9D4879947E5D94455667E /* Pods */,
+				E0DBF88937EF241FA79E7947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +97,31 @@
 				9E5DB2A72496DF12009A542B /* AppDelegate.swift */,
 				9E5DB2A92496DF12009A542B /* SceneDelegate.swift */,
 				9E5DB2AB2496DF12009A542B /* ViewController.swift */,
+				9E7E78C52496E663005CB149 /* RegisterVC.swift */,
+				9E7E78C72496FFAB005CB149 /* InformationVC.swift */,
+				9E37CE292498B28000A958D1 /* SellProductVC.swift */,
+				9E37CE2D2499043800A958D1 /* ForSaleProductVC.swift */,
+				9E37CE2B2499037400A958D1 /* FirstScreenCell.swift */,
+				9E37CE352499FD4C00A958D1 /* MyProductForSaleVC.swift */,
+				9E37CE2F24994D6F00A958D1 /* DetailVC.swift */,
+				9E37CE3124996A2800A958D1 /* NotificationVC.swift */,
+				9E37CE332499FCB600A958D1 /* SecondScreenCell.swift */,
+				9E37CE39249A296400A958D1 /* ThirdScreenCell.swift */,
 				9E5DB2AD2496DF12009A542B /* Main.storyboard */,
 				9E5DB2B02496DF15009A542B /* Assets.xcassets */,
 				9E5DB2B22496DF15009A542B /* LaunchScreen.storyboard */,
 				9E5DB2B52496DF15009A542B /* Info.plist */,
+				9E5DB2BB2496DFC0009A542B /* GoogleService-Info.plist */,
 			);
 			path = AlSatApp;
+			sourceTree = "<group>";
+		};
+		E0DBF88937EF241FA79E7947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E6BD0EC212322B20A6C94E /* Pods_AlSatApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E5DB2B82496DF15009A542B /* Build configuration list for PBXNativeTarget "AlSatApp" */;
 			buildPhases = (
+				9CB4E085B7ADCF1725F1EE3F /* [CP] Check Pods Manifest.lock */,
 				9E5DB2A02496DF12009A542B /* Sources */,
 				9E5DB2A12496DF12009A542B /* Frameworks */,
 				9E5DB2A22496DF12009A542B /* Resources */,
+				755C438E1AD70C3253592512 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5DB2BC2496DFC0009A542B /* GoogleService-Info.plist in Resources */,
 				9E5DB2B42496DF15009A542B /* LaunchScreen.storyboard in Resources */,
 				9E5DB2B12496DF15009A542B /* Assets.xcassets in Resources */,
 				9E5DB2AF2496DF12009A542B /* Main.storyboard in Resources */,
@@ -133,14 +193,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		755C438E1AD70C3253592512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlSatApp/Pods-AlSatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlSatApp/Pods-AlSatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlSatApp/Pods-AlSatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB4E085B7ADCF1725F1EE3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlSatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E5DB2A02496DF12009A542B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E5DB2AC2496DF12009A542B /* ViewController.swift in Sources */,
+				9E37CE3224996A2800A958D1 /* NotificationVC.swift in Sources */,
+				9E7E78C62496E663005CB149 /* RegisterVC.swift in Sources */,
+				9E37CE2C2499037400A958D1 /* FirstScreenCell.swift in Sources */,
+				9E37CE2A2498B28000A958D1 /* SellProductVC.swift in Sources */,
 				9E5DB2A82496DF12009A542B /* AppDelegate.swift in Sources */,
+				9E37CE3024994D6F00A958D1 /* DetailVC.swift in Sources */,
+				9E7E78C82496FFAB005CB149 /* InformationVC.swift in Sources */,
 				9E5DB2AA2496DF12009A542B /* SceneDelegate.swift in Sources */,
+				9E37CE3A249A296400A958D1 /* ThirdScreenCell.swift in Sources */,
+				9E37CE342499FCB600A958D1 /* SecondScreenCell.swift in Sources */,
+				9E37CE2E2499043800A958D1 /* ForSaleProductVC.swift in Sources */,
+				9E37CE362499FD4C00A958D1 /* MyProductForSaleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,7 @@
 		};
 		9E5DB2B92496DF15009A542B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAB826DF61CA2D73562BC63 /* Pods-AlSatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		9E5DB2BA2496DF15009A542B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B65F3FE61E59B4C50D2CE18 /* Pods-AlSatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
